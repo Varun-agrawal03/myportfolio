@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from 'lucide-react'
+import { Briefcase, Code, Download, User } from 'lucide-react'
 import React from 'react'
 
 export const AboutSection = () => {
@@ -27,9 +27,14 @@ export const AboutSection = () => {
               <a href="#contact" className='cosmic-button'>
                 Get In Touch 
               </a>
-              <a href="" className='px-6 flex items-center justify-center rounded-full border border-primary text-primary hover: bg-primary/10 transition-colors duration-300'>
-                Download CV
+              <a
+                href="public/CVpdf/Varun_Agrawal_Resume_JULY.pdf"
+                download
+                className='px-6 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'
+              >
+                <Download/> Download CV
               </a>
+
 
             </div>
 
@@ -52,23 +57,24 @@ export const AboutSection = () => {
                 <User className='h-6 w-6 text-primary'/>
                 </div>
                  <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>UI/UX Designer</h4>
-                  <p className='text-muted-foreground'>Designing intuitive user iterfaces and seamless user experiences.
-                  </p>
+                  <h4 className='font-semibold text-lg'>Problem Solver</h4>
+                  <p className='text-muted-foreground'>Love to solve Challenging real world Problems. </p>
+                  
                 </div>
               </div>
             </div>
-            <div className='gradient-border p-6 card-hover'>
+            {/* <div className='gradient-border p-6 card-hover'>
               <div className='flex items-start gap-4'>
                 <div className='p-3 rounded-full bg-primary/10'>
                 <Briefcase className='h-6 w-6 text-primary'/>
                 </div>
                  <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>Problem Solver</h4>
-                  <p className='text-muted-foreground'>Love to solve Challenging real world Problems. </p>
+                   <h4 className='font-semibold text-lg'>UI/UX Designer</h4>
+                  <p className='text-muted-foreground'>Designing intuitive user iterfaces and seamless user experiences.
+                  </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

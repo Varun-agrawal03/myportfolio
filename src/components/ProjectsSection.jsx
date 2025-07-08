@@ -8,8 +8,8 @@ const  projects = [
         description: "My portfolio page build using ReactJs and Tailwind CSS",
         image: "/projects/project1.png",
         tags: ["React" , "TailwindCSS" , "HTML5","JS"],
-        demoUrl: "#",
-        githubUrl: "#"
+        demoUrl: "https://varunportfolioi.netlify.app",
+        githubUrl: "https://github.com/Varun-agrawal03/myportfolio"
     }
 ]
 

@@ -27,7 +27,7 @@ const skills = [
 
     //frontend
     {
-        name: "HTML/CSS",level: 95,category:"frontend"
+        name: "HTML/CSS",level: 80,category:"frontend"
     },
     {
         name: "JavaScript",level: 60,category:"frontend"
@@ -106,7 +106,7 @@ export const SkillsSection = () => {
                     key={key} 
                     onClick={()=>setActiveCategory(category)}
                     className={cn('px-5 py-2 rounded-full transition-colors duration-300 capitalize', 
-                        activeCategory === category ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover: bg-secondary"
+                        activeCategory === category ? "bg-primary text-primary-foreground" : "bg-secondary/40 text-black hover: bg-secondary"
                     )}
                     >
                         {category}
